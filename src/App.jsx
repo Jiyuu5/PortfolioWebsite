@@ -1,4 +1,5 @@
-import Descripton from "./components/description";
+import Descripton from "./components/Description";
+import CardList from "./components/CardList";
 
 export default function App() {
   return (
@@ -11,7 +12,9 @@ export default function App() {
             </ul>
           </div>
         </aside>
-        <main role="main" className="w-full sm:w-2/3 md:w-3/4 pt-1 px-2"></main>
+        <main role="main" className="w-full sm:w-2/3 md:w-3/4 pt-1 px-2">
+          <CardList />
+        </main>
       </div>
       <footer className="mt-auto">...</footer>
     </div>
