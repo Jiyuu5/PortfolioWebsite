@@ -1,6 +1,6 @@
 export default function Descripton() {
   return (
-    <div>
+    <div className="text-white">
       <h1 className="text-3xl font-bold">Eric Grebe</h1>
       <h2 className="font-bold">Software Developer</h2>
       <p>
