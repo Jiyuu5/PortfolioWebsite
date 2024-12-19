@@ -1,22 +1,25 @@
-import Descripton from "./components/Description";
+import Description from "./components/Description";
 import CardList from "./components/CardList";
+import Header from "./components/Header";
+import SocialLinks from "./components/SocialLinks";
 
 export default function App() {
   return (
     <div className="mx-auto max-w-2xl lg:max-w-7xl">
-      <div className="flex flex-row flex-wrap py-4">
-        <aside className="w-full sm:w-1/3 md:w-1/4 px-2">
+      <Header />
+      <main className="flex flex-row flex-wrap py-4">
+        <section className="w-1/2  px-2">
           <div className="sticky top-0 p-4 w-full">
             <ul className="flex flex-col overflow-hidden">
-              <Descripton />
+              <Description />
             </ul>
           </div>
-        </aside>
-        <main role="main" className="w-full sm:w-2/3 md:w-3/4 pt-1 px-2">
+          <SocialLinks />
+        </section>
+        <section className="w-1/2 pt-2 px-2">
           <CardList />
-        </main>
-      </div>
-      <footer className="mt-auto">...</footer>
+        </section>
+      </main>
     </div>
   );
 }
