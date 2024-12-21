@@ -8,10 +8,12 @@ import { useState } from "react";
 export default function App() {
   const [currentLanguage, setCurrentLanguage] = useState("en");
 
+  // Sets a new Language to the whole page
   function handleSetLanguage(language) {
     setCurrentLanguage(language);
   }
 
+  // Website HTML main structure
   return (
     <div className="mx-auto max-w-2xl lg:max-w-7xl">
       <Header handleSetLanguage={handleSetLanguage} />
