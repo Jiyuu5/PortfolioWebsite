@@ -1,8 +1,13 @@
 export default function SocialLinks() {
   return (
-    <ul className="flex items-center mb-16">
+    <ul className="flex items-center mb-16 px-4">
       <li className="shrink-0">
-        <a href="https://github.com/Jiyuu5">
+        <a
+          href="https://github.com/Jiyuu5"
+          title="GitHub"
+          target="_blank"
+          aria-label="GitHub (new tab)"
+        >
           <span className="sr-only">GitHub</span>
 
           <svg

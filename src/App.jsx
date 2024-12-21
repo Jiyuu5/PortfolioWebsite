@@ -11,10 +11,12 @@ export default function App() {
       <main className="flex flex-row flex-wrap ">
         <section className="w-1/2">
           <div className="sticky top-0 w-full">
-            <ul className="flex flex-col ">
+            <ul className="flex flex-col justify-between h-dvh">
               <Description />
-              <SocialLinks />
-              <Footer />
+              <div>
+                <SocialLinks />
+                <Footer />
+              </div>
             </ul>
           </div>
         </section>

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <ul className="flex flex-row justify-center gap-8">
+      <ul className="flex flex-row justify-center gap-8 mb-4">
         <li>
           <a>Impressum</a>
         </li>
