@@ -1,9 +1,9 @@
 export default function Card() {
   return (
     <>
-      <card className="text-white p-2">
+      <div className="text-white p-2 mb-2">
         <h2>Project name</h2>
-      </card>
+      </div>
     </>
   );
 }

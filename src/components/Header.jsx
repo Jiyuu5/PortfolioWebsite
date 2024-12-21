@@ -2,8 +2,8 @@ import LanguageSelect from "./LanguageSelect";
 
 export default function Header() {
   return (
-    <div className="flex float-end">
+    <header className="float-end sticky top-0">
       <LanguageSelect />
-    </div>
+    </header>
   );
 }
