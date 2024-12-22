@@ -22,15 +22,13 @@ export default function App() {
           <div className="sticky top-0 w-full">
             <ul className="flex flex-col justify-between h-dvh">
               <Description language={currentLanguage} />
-              <div>
-                <SocialLinks />
-                <Footer />
-              </div>
+              <SocialLinks />
             </ul>
           </div>
         </section>
         <section className="w-1/2 pt-2 px-2">
           <CardList />
+          <Footer />
         </section>
       </main>
     </div>
