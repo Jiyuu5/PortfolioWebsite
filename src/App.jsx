@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import { useState } from "react";
 
 export default function App() {
-  const [currentLanguage, setCurrentLanguage] = useState("en");
+  const [currentLanguage, setCurrentLanguage] = useState("de");
 
   // Sets a new Language to the whole page
   function handleSetLanguage(language) {
