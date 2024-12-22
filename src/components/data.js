@@ -2,7 +2,7 @@ export const DESCRIPTIONS = {
   de: {
     title: "Software Entwickler",
     description:
-      "Herzlich willkommen auf meinem Profil! Momentan befinde ich mich in einer Umschulung zum Fachinformatiker für Anwendungsentwicklung umd um Erfahrung zu sammeln, entwickle ich Projekte im Front-End-Bereich und Mobile-Apps für Android. In meiner Freizeit lerne ich Japanisch, um der Kultur Japans näher zu kommen.",
+      "Herzlich willkommen auf meinem Profil! Momentan befinde ich mich in einer Umschulung zum Fachinformatiker für Anwendungsentwicklung und um Erfahrung zu sammeln, entwickle ich Projekte im Front-End-Bereich und Mobile-Apps für Android. In meiner Freizeit lerne ich Japanisch, um der Kultur Japans näher zu kommen.",
   },
   en: {
     title: "Software Developer",
@@ -19,13 +19,15 @@ export const DESCRIPTIONS = {
 export const PROJECTS = [
   {
     title: "The Dice Guy",
-    description: "Programmiert in C# in der Unity 3D Game Engine",
-    tags: ["Android", "Kotlin", "Java"],
+    description:
+      "Eine Würfel-App für Rollen- und Table-Top-Spieler. Entwickelt für Android Smartphones",
+    tags: ["Android", "Kotlin", "Java", "Jetpack Compose"],
     imgID: "04",
   },
   {
-    title: "Space Invaders Clone",
-    description: "Programmiert in C# in der Unity 3D Game Engine",
+    title: "Space Defence",
+    description:
+      "Ein Space Invaders Clone programmiert in C# in der Unity 3D Game Engine",
     tags: ["C#", "Unity3D"],
     imgID: "03",
   },

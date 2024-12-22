@@ -3,9 +3,9 @@ export default function Card({ title, description, tags, imgID }) {
   return (
     <>
       <div>
-        <div>
+        <div className="size-24 ">
           <img
-            className="size-24 "
+            className="object-contain h-24 w-24"
             src={`src/assets/projekt${imgID}.png`}
           ></img>
         </div>

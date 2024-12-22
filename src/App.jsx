@@ -24,7 +24,7 @@ export default function App() {
               <Description language={currentLanguage} />
               <div>
                 <SocialLinks />
-                <p className="text-sm">
+                <p className="text-sm p-2">
                   Das Design dieser Website orientiert sich an der
                   Portfolio-Site der Entwicklerin
                   <a href="https://brittanychiang.com/"> Brittany Chiang</a>.
