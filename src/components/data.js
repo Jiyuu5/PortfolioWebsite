@@ -15,3 +15,13 @@ export const DESCRIPTIONS = {
       "私のプロフィールへようこそ！現在、アプリケーション開発のITスペシャリストとして再研修中で、経験を積むために、フロントエンド領域とアンドロイド向けモバイルアプリのプロジェクトを開発しています。余暇には日本の文化に近づくために日本語を勉強しています。",
   },
 };
+
+export const PROJECTS = [
+  {
+    title: "Lesewelt Oker",
+    description:
+      "Einfache Website im Onepage-Design, die ich hauptsächlich mit HTML und CSS während meiner ehrenamtlichen Tätigkeit für die Bücherrei Lesewelt Oker realisiert habe. ",
+    image: "",
+    tags: ["HTML", "CSS", "Javascript"],
+  },
+];

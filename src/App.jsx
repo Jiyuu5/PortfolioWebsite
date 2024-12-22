@@ -22,7 +22,14 @@ export default function App() {
           <div className="sticky top-0 w-full">
             <ul className="flex flex-col justify-between h-dvh">
               <Description language={currentLanguage} />
-              <SocialLinks />
+              <div>
+                <p>
+                  Das Design orientiert an der Portfolio-Site der Entwicklerin
+                  <a href="https://brittanychiang.com/"> Brittany Chiang</a>.
+                  Vielen Dank für die beeindruckende Vorlage zum Nachbauen!
+                </p>
+                <SocialLinks />
+              </div>
             </ul>
           </div>
         </section>

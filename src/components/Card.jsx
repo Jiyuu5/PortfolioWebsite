@@ -1,8 +1,10 @@
+import { PROJECTS } from "./data";
+
 /* eslint-disable react/no-unknown-property */
 export default function Card() {
   return (
     <>
-      <div className="">
+      <div>
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -47,14 +49,11 @@ export default function Card() {
           </svg>
         </div>
         <div>
-          <h2>Project name</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis fugit
-            excepturi temporibus sint hic earum, molestiae quaerat distinctio
-            consequatur facere laboriosam suscipit quas illo eaque nulla
-            obcaecati harum sapiente commodi?
-          </p>
-          <div>TAGS</div>
+          <h2>
+            <a href="https://leseweltoker.de/">{PROJECTS[0].title}</a>
+          </h2>
+          <p>{PROJECTS[0].description}</p>
+          <div>{PROJECTS[0].tags}</div>
         </div>
       </div>
     </>
