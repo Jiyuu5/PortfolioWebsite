@@ -18,10 +18,29 @@ export const DESCRIPTIONS = {
 
 export const PROJECTS = [
   {
+    title: "The Dice Guy",
+    description: "Programmiert in C# in der Unity 3D Game Engine",
+    tags: ["Android", "Kotlin", "Java"],
+    imgID: "04",
+  },
+  {
+    title: "Space Invaders Clone",
+    description: "Programmiert in C# in der Unity 3D Game Engine",
+    tags: ["C#", "Unity3D"],
+    imgID: "03",
+  },
+  {
+    title: "ericgrebe.de",
+    description:
+      "Mein erstes eigenes Projekt mit React. Angelehnt an das Design der Entwicklerin Brittany Chiang",
+    tags: ["React", "Tailwind"],
+    imgID: "02",
+  },
+  {
     title: "Lesewelt Oker",
     description:
       "Einfache Website im Onepage-Design, die ich hauptsächlich mit HTML und CSS während meiner ehrenamtlichen Tätigkeit für die Bücherrei Lesewelt Oker realisiert habe. ",
-    image: "",
     tags: ["HTML", "CSS", "Javascript"],
+    imgID: "01",
   },
 ];
