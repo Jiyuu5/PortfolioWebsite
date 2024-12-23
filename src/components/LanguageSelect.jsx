@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export default function LanguageSelect({ handleSetLanguage }) {
   return (
-    <ul className="flex gap-3">
+    <ul className="flex gap-3 mt-1 mr-1">
       <li>
         <button onClick={() => handleSetLanguage("de")}>DE</button>
       </li>

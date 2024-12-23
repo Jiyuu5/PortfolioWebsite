@@ -3,7 +3,7 @@ import LanguageSelect from "./LanguageSelect";
 
 export default function Header({ handleSetLanguage }) {
   return (
-    <header className="float-end sticky top-0 mt-1">
+    <header className="float-end sticky top-0 ">
       <LanguageSelect handleSetLanguage={handleSetLanguage} />
     </header>
   );
