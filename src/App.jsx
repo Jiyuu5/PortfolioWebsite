@@ -17,25 +17,25 @@ export default function App() {
   return (
     <div className="mx-auto max-w-2xl lg:max-w-7xl">
       <Header handleSetLanguage={handleSetLanguage} />
-      <main className="flex flex-row flex-wrap ">
-        <section className="w-1/2 px-3">
-          <div className="sticky top-0 w-full">
-            <ul className="flex flex-col justify-between h-dvh">
+      <main className="lg:flex lg:flex-row lg:gap-4">
+        <section className="lg:w-1/2 px-3">
+          <div className="lg:sticky lg:top-0 w-full">
+            <ul className="lg:flex lg:flex-col lg:justify-between lg:h-dvh">
               <Description language={currentLanguage} />
               <div>
                 <SocialLinks />
-                <p className="text-sm p-2">
-                  Das Design dieser Website orientiert sich an der
-                  Portfolio-Site der Entwicklerin
-                  <a href="https://brittanychiang.com/"> Brittany Chiang</a>.
-                  Vielen Dank für die beeindruckende Vorlage!
-                </p>
               </div>
             </ul>
           </div>
         </section>
-        <section className="w-1/2 px-3">
+        <section className="lg:w-1/2 px-3">
           <CardList />
+          <p className="text-sm p-2 mb-4">
+            Das Design dieser Website orientiert sich an der Portfolio-Site der
+            Entwicklerin
+            <a href="https://brittanychiang.com/"> Brittany Chiang</a>. Vielen
+            Dank für die beeindruckende Vorlage!
+          </p>
           <Footer />
         </section>
       </main>

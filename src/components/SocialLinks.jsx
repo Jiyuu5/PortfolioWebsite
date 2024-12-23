@@ -1,6 +1,6 @@
 export default function SocialLinks() {
   return (
-    <ul className="flex items-center mb-16 mt-8 px-4">
+    <ul className="flex items-center mb-4 lg:mb-16 mt-8 px-4">
       <li className="shrink-0">
         <a
           href="https://github.com/Jiyuu5"
