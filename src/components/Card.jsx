@@ -10,9 +10,14 @@ export default function Card({ title, description, tags, imgID }) {
       </div>
       <div>
         <h2>
-          <a href="https://leseweltoker.de/">{title}</a>
+          <a
+            href="https://leseweltoker.de/"
+            className="text-slate-100 text-base font-bold hover:text-teal-400"
+          >
+            {title}
+          </a>
         </h2>
-        <p>{description}</p>
+        <p className="text-sm leading-normal">{description}</p>
         <div>{tags}</div>
       </div>
     </li>

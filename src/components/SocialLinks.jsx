@@ -3,6 +3,7 @@ export default function SocialLinks() {
     <ul className="flex items-center mb-4 lg:mb-16 mt-8 px-4">
       <li className="shrink-0">
         <a
+          className="text-slate-300 hover:text-slate-50"
           href="https://github.com/Jiyuu5"
           title="GitHub"
           target="_blank"
@@ -13,7 +14,7 @@ export default function SocialLinks() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
-            fill="#fff"
+            fill="currentColor"
             className="h-6 w-6"
             aria-hidden="true"
           >

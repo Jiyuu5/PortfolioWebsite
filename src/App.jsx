@@ -33,8 +33,13 @@ export default function App() {
           <p className="text-sm p-2 mb-4">
             Das Design dieser Website orientiert sich an der Portfolio-Site der
             Entwicklerin
-            <a href="https://brittanychiang.com/"> Brittany Chiang</a>. Vielen
-            Dank für die beeindruckende Vorlage!
+            <a
+              className="text-slate-100 font-bold hover:text-teal-400"
+              href="https://brittanychiang.com/"
+            >
+              <span> Brittany Chiang</span>
+            </a>
+            . Vielen Dank für die beeindruckende Vorlage!
           </p>
           <Footer />
         </section>
