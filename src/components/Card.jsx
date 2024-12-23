@@ -12,16 +12,21 @@ export default function Card({ title, description, tags, imgID, url }) {
           </div>
           <div className="col-span-2 sm:col-span-6">
             <h2>
-              <a
-                href={url}
-                className="text-slate-100 text-base font-bold group-hover:text-teal-400"
-                target="_blank"
-              >
+              <span className="text-slate-100 text-base font-bold group-hover:text-teal-400">
                 {title}
-              </a>
+              </span>
             </h2>
             <p className="text-sm leading-normal">{description}</p>
-            <div>{tags}</div>
+            <ul className="flex gap-2 mt-2">
+              {tags.map((item) => (
+                <li
+                  key={item}
+                  className="flex items-center text-xs bg-teal-950 group-hover:bg-teal-900 text-teal-100 rounded-full px-3 py-1 leading-5 font-bold"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </a>
