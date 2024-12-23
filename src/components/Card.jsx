@@ -1,18 +1,19 @@
 /* eslint-disable react/prop-types */
-export default function Card({ title, description, tags, imgID }) {
+export default function Card({ title, description, tags, imgID, url }) {
   return (
-    <li className="mb-12">
-      <div className="size-24 ">
+    <li className="mb-12 grid gap-4 sm:grid-cols-8">
+      <div className="sm:col-span-2">
         <img
-          className="object-contain h-24 w-24"
+          className="object-cover"
           src={`src/assets/projekt${imgID}.png`}
         ></img>
       </div>
-      <div>
+      <div className="sm:col-span-6">
         <h2>
           <a
-            href="https://leseweltoker.de/"
+            href={url}
             className="text-slate-100 text-base font-bold hover:text-teal-400"
+            target="_blank"
           >
             {title}
           </a>

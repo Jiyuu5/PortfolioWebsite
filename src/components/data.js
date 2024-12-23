@@ -23,6 +23,7 @@ export const PROJECTS = [
       "Eine Würfel-App für Rollen- und Table-Top-Spieler. Entwickelt für Android Smartphones",
     tags: ["Android", "Kotlin", "Java", "Jetpack Compose"],
     imgID: "04",
+    url: "",
   },
   {
     title: "Space Defence",
@@ -30,6 +31,7 @@ export const PROJECTS = [
       "Ein Space Invaders Clone programmiert in C# in der Unity 3D Game Engine",
     tags: ["C#", "Unity3D"],
     imgID: "03",
+    url: "",
   },
   {
     title: "ericgrebe.de",
@@ -37,6 +39,7 @@ export const PROJECTS = [
       "Mein erstes eigenes Projekt mit React. Angelehnt an das Design der Entwicklerin Brittany Chiang",
     tags: ["React", "Tailwind"],
     imgID: "02",
+    url: "https://ericgrebe.de/",
   },
   {
     title: "Lesewelt Oker",
@@ -44,5 +47,6 @@ export const PROJECTS = [
       "Einfache Website im Onepage-Design, die ich hauptsächlich mit HTML und CSS während meiner ehrenamtlichen Tätigkeit für die Bücherrei Lesewelt Oker realisiert habe. ",
     tags: ["HTML", "CSS", "Javascript"],
     imgID: "01",
+    url: "https://leseweltoker.de/",
   },
 ];

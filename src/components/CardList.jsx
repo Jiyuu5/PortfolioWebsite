@@ -11,6 +11,7 @@ export default function CardList() {
           description={project.description}
           tags={project.tags}
           imgID={project.imgID}
+          url={project.url}
         />
       ))}
     </ul>
