@@ -16,7 +16,10 @@ export default function App() {
   // Website HTML main structure
   return (
     <div className="mx-auto max-w-2xl lg:max-w-7xl">
-      <Header handleSetLanguage={handleSetLanguage} />
+      <Header
+        currentLanguage={currentLanguage}
+        handleSetLanguage={handleSetLanguage}
+      />
       <main className="lg:flex lg:flex-row lg:gap-4">
         <section className="lg:w-1/2 px-3">
           <div className="lg:sticky lg:top-0 w-full">
