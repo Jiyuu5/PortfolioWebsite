@@ -23,7 +23,7 @@ export const PROJECTS = [
       "Eine Würfel-App für Rollen- und Table-Top-Spieler. Entwickelt für Android Smartphones",
     tags: ["Android", "Kotlin", "Java", "Jetpack Compose"],
     imgID: "04",
-    url: "",
+    url: "https://play.google.com/store/apps/details?id=de.rockbiter.thediceguy",
   },
   {
     title: "Space Defence",
@@ -31,7 +31,7 @@ export const PROJECTS = [
       "Ein Space Invaders Clone programmiert in C# in der Unity 3D Game Engine",
     tags: ["C#", "Unity3D"],
     imgID: "03",
-    url: "",
+    url: "https://play.unity.com/en/games/5d59b1db-f54e-46a9-a6b3-6329ea5d3317/build",
   },
   {
     title: "ericgrebe.de",
