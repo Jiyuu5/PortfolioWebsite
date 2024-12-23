@@ -3,7 +3,7 @@ import { PROJECTS } from "./data";
 
 export default function CardList() {
   return (
-    <ul className="mt-12 lg:mt-20">
+    <ul className="mt-12 lg:mt-24">
       {PROJECTS.map((project) => (
         <Card
           key={project.title}

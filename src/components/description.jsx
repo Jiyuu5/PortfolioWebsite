@@ -5,7 +5,7 @@ export default function Description({ language }) {
   const currentLanguage = DESCRIPTIONS[language];
 
   return (
-    <div className="mt-4 lg:mt-20">
+    <div className="mt-12 lg:mt-20">
       <h1 className="text-4xl lg:text-5xl font-bold">Eric Grebe</h1>
       <h2 className="text-lg lg:text-xl font-bold mt-3">
         {currentLanguage.title}

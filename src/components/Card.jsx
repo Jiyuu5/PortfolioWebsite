@@ -7,7 +7,7 @@ export default function Card({ title, description, tags, imgID, url }) {
           <div className="sm:col-span-2 ">
             <img
               className="object-cover border-2 rounded border-gray-900"
-              src={`src/assets/projekt${imgID}.png`}
+              src={`/test/projekt${imgID}.png`}
             ></img>
           </div>
           <div className="col-span-2 sm:col-span-6">
@@ -17,7 +17,7 @@ export default function Card({ title, description, tags, imgID, url }) {
               </span>
             </h2>
             <p className="text-sm leading-normal">{description}</p>
-            <ul className="flex gap-2 mt-2">
+            <ul className="flex flex-wrap gap-2 mt-2">
               {tags.map((item) => (
                 <li
                   key={item}
