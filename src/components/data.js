@@ -1,6 +1,6 @@
 export const LANGUAGE_DATA = {
   de: {
-    title: "Software Entwickler",
+    title: "Softwareentwickler",
     description:
       "Herzlich willkommen auf meinem Profil! Momentan befinde ich mich in einer Umschulung zum Fachinformatiker für Anwendungsentwicklung und um Erfahrung zu sammeln, entwickle ich Projekte im Front-End-Bereich und Mobile-Apps für Android. In meiner Freizeit lerne ich Japanisch, um der Kultur Japans näher zu kommen.",
     credit: [

@@ -5,9 +5,11 @@ import ProjectList from "./components/ProjectList";
 import Credit from "./components/Credit";
 import Footer from "./components/Footer";
 import { useState } from "react";
+import Impressum from "./components/Impressum";
 
 export default function App() {
   const [currentLanguage, setCurrentLanguage] = useState("de");
+  const [isImpressumOpen, setIsImpressumOpen] = useState(false);
 
   // Sets a new Language to the whole page
   function handleSetLanguage(language) {
@@ -35,7 +37,11 @@ export default function App() {
         <section className="lg:w-1/2 px-3">
           <ProjectList />
           <Credit language={currentLanguage} />
-          <Footer />
+          <Footer
+            isImpressumOpen={isImpressumOpen}
+            onToggleImpressum={setIsImpressumOpen}
+          />
+          <Impressum isImpressumOpen={isImpressumOpen} />
         </section>
       </main>
     </div>
