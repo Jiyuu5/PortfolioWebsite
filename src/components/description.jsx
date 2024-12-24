@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import { DESCRIPTIONS } from "./data";
+import { LANGUAGE_DATA } from "./data";
 
 export default function Description({ language }) {
-  const currentLanguage = DESCRIPTIONS[language];
+  const currentLanguage = LANGUAGE_DATA[language];
 
   return (
     <div className="mt-12 lg:mt-20">

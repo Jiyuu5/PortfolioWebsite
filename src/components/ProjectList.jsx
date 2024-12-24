@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "./Project";
 import { PROJECTS } from "./data";
 
 export default function CardList() {

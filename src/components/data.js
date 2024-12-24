@@ -1,4 +1,4 @@
-export const DESCRIPTIONS = {
+export const LANGUAGE_DATA = {
   de: {
     title: "Software Entwickler",
     description:

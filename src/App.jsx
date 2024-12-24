@@ -1,5 +1,5 @@
 import Description from "./components/Description";
-import CardList from "./components/CardList";
+import ProjectList from "./components/ProjectList";
 import Header from "./components/Header";
 import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer";
@@ -32,7 +32,7 @@ export default function App() {
           </div>
         </section>
         <section className="lg:w-1/2 px-3">
-          <CardList />
+          <ProjectList />
           <p className="text-sm p-2 mb-4">
             Das Design dieser Website orientiert sich an der Portfolio-Site von
             <a
