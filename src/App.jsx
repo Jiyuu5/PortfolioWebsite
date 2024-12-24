@@ -6,10 +6,12 @@ import Credit from "./components/Credit";
 import Footer from "./components/Footer";
 import { useState } from "react";
 import Impressum from "./components/Impressum";
+import Datenschutz from "./components/Datenschutz";
 
 export default function App() {
   const [currentLanguage, setCurrentLanguage] = useState("de");
   const [isImpressumOpen, setIsImpressumOpen] = useState(false);
+  const [isDatenschutzOpen, setIsDatenschutzOpen] = useState(false);
 
   // Sets a new Language to the whole page
   function handleSetLanguage(language) {
@@ -40,8 +42,11 @@ export default function App() {
           <Footer
             isImpressumOpen={isImpressumOpen}
             onToggleImpressum={setIsImpressumOpen}
+            isDatenschutzOpen={isDatenschutzOpen}
+            onToggleDatenschutz={setIsDatenschutzOpen}
           />
           <Impressum isImpressumOpen={isImpressumOpen} />
+          <Datenschutz isDatenschutzOpen={isDatenschutzOpen} />
         </section>
       </main>
     </div>
