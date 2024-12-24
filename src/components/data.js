@@ -20,7 +20,7 @@ export const PROJECTS = [
   {
     title: "The Dice Guy",
     description:
-      "Eine Würfel-App für Rollen- und Table-Top-Spieler. Entwickelt für Android Smartphones",
+      "Eine Würfel-App für Rollen- und Table-Top-Spieler. Entwickelt für Android Smartphones mit Android Studio. Befindet sich noch in der geschlossenen Alpha.",
     tags: ["Android", "Kotlin", "Java", "Jetpack Compose"],
     imgID: "04",
     url: "https://play.google.com/store/apps/details?id=de.rockbiter.thediceguy",
@@ -28,7 +28,7 @@ export const PROJECTS = [
   {
     title: "Space Defence",
     description:
-      "Ein Space Invaders Clone programmiert in C# in der Unity 3D Game Engine",
+      "Ein Space Invaders Clone programmiert in C# in der Unity 3D Game Engine. Alpha Version.",
     tags: ["C#", "Unity3D"],
     imgID: "03",
     url: "https://play.unity.com/en/games/5d59b1db-f54e-46a9-a6b3-6329ea5d3317/build",
@@ -36,7 +36,7 @@ export const PROJECTS = [
   {
     title: "ericgrebe.de",
     description:
-      "Mein erstes eigenes Projekt mit React. Angelehnt an das Design der Entwicklerin Brittany Chiang",
+      "Mein erstes eigenes Projekt mit React und Vite. Angelehnt an das Design der Entwicklerin Brittany Chiang.",
     tags: ["React", "Tailwind"],
     imgID: "02",
     url: "https://ericgrebe.de/",
@@ -44,7 +44,7 @@ export const PROJECTS = [
   {
     title: "Lesewelt Oker",
     description:
-      "Einfache Website im Onepage-Design, die ich hauptsächlich mit HTML und CSS während meiner ehrenamtlichen Tätigkeit für die Bücherrei Lesewelt Oker realisiert habe. ",
+      "Einfache Website im Onepage-Design, die ich zu 99% mit HTML und CSS während meiner ehrenamtlichen Tätigkeit für die Bücherei Lesewelt Oker realisiert habe.",
     tags: ["HTML", "CSS", "Javascript"],
     imgID: "01",
     url: "https://leseweltoker.de/",
