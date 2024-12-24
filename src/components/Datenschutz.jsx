@@ -1,12 +1,33 @@
 /* eslint-disable react/prop-types */
-export default function Datenschutz({ isDatenschutzOpen }) {
+export default function Datenschutz({
+  isDatenschutzOpen,
+  handleCloseDatenschutz,
+}) {
   if (!isDatenschutzOpen) return;
 
   return (
-    <div>
-      <h2 className="text-lg lg:text-2xl font-bold mb-3">
-        Datenschutz&shy;erkl&auml;rung
-      </h2>
+    <div className="mt-8">
+      <div className="flex flex-row justify-between">
+        <h2 className="text-lg lg:text-2xl font-bold mb-3">
+          Datenschutz&shy;erkl&auml;rung
+        </h2>
+        <button onClick={() => handleCloseDatenschutz(false)}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            className="size-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
       <h2 className="text-lg lg:text-xl font-bold mb-3  mt-2">
         1. Datenschutz auf einen Blick
       </h2>

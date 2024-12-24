@@ -45,8 +45,14 @@ export default function App() {
             isDatenschutzOpen={isDatenschutzOpen}
             onToggleDatenschutz={setIsDatenschutzOpen}
           />
-          <Impressum isImpressumOpen={isImpressumOpen} />
-          <Datenschutz isDatenschutzOpen={isDatenschutzOpen} />
+          <Impressum
+            isImpressumOpen={isImpressumOpen}
+            handleCloseImpressum={setIsImpressumOpen}
+          />
+          <Datenschutz
+            isDatenschutzOpen={isDatenschutzOpen}
+            handleCloseDatenschutz={setIsDatenschutzOpen}
+          />
         </section>
       </main>
     </div>

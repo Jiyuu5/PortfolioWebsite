@@ -7,18 +7,18 @@ export default function Footer({
 }) {
   function handleOnClickImpressum() {
     onToggleDatenschutz(false);
-    !isImpressumOpen ? onToggleImpressum(true) : onToggleImpressum(false);
+    onToggleImpressum(true);
   }
 
   function handleOnClickDatenschutz() {
     onToggleImpressum(false);
-    !isDatenschutzOpen ? onToggleDatenschutz(true) : onToggleDatenschutz(false);
+    onToggleDatenschutz(true);
   }
 
-  const styleImpressum = isImpressumOpen
+  const styleImpressumSvg = isImpressumOpen
     ? "size-5 text-teal-400 rotate-90"
     : "size-5 group-hover:text-teal-400 group-hover:rotate-90 transition-all";
-  const styleDatenschutz = isDatenschutzOpen
+  const styleDatenschutzSvg = isDatenschutzOpen
     ? "size-5 text-teal-400 rotate-90"
     : "size-5 group-hover:text-teal-400 group-hover:rotate-90 transition-all";
 
@@ -38,7 +38,7 @@ export default function Footer({
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className={styleImpressum}
+            className={styleImpressumSvg}
           >
             <path
               strokeLinecap="round"
@@ -60,7 +60,7 @@ export default function Footer({
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className={styleDatenschutz}
+            className={styleDatenschutzSvg}
           >
             <path
               strokeLinecap="round"
