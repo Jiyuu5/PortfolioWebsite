@@ -37,7 +37,7 @@ export default function App() {
           </div>
         </section>
         <section className="lg:w-1/2 px-3">
-          <ProjectList />
+          <ProjectList language={currentLanguage} />
           <Credit language={currentLanguage} />
           <Footer
             isImpressumOpen={isImpressumOpen}

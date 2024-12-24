@@ -31,32 +31,45 @@ export const LANGUAGE_DATA = {
 export const PROJECTS = [
   {
     title: "The Dice Guy",
-    description:
-      "Eine Würfel-App für Rollen- und Table-Top-Spieler. Entwickelt für Android Smartphones mit Android Studio. Befindet sich noch in der geschlossenen Alpha.",
+    description: {
+      de: "Eine Würfel-App für Rollen- und Table-Top-Spieler. Entwickelt für Android Smartphones mit Android Studio. Befindet sich noch in der geschlossenen Alpha.",
+      en: "A dice app for role-playing and table-top players. Developed for Android smartphones with Android Studio. Still in closed alpha.",
+      jp: "ロールプレイングやテーブルトッププレイヤー向けのダイスアプリ。Android StudioでAndroidスマートフォン向けに開発。クローズドアルファ版。",
+    },
     tags: ["Android", "Kotlin", "Java", "Jetpack Compose"],
     imgID: "04",
     url: "https://github.com/Jiyuu5/TheDiceGuyJC",
   },
   {
     title: "Space Defence",
-    description:
-      "Ein Space Invaders Clone programmiert in C# in der Unity 3D Game Engine. Alpha Version.",
+    description: {
+      de: "Ein Space Invaders Clone programmiert in C# in der Unity 3D Game Engine. Alpha Version.",
+      en: "A Space Invaders clone programmed in C# in the Unity 3D game engine. Alpha version.",
+      jp: "Unity 3DゲームエンジンでC#でプログラムされたスペースインベーダーのクローン。アルファ版。",
+    },
+
     tags: ["C#", "Unity3D"],
     imgID: "03",
     url: "https://play.unity.com/en/games/dc5378bb-50a5-4224-95f6-23bb1d5c15c4/build",
   },
   {
     title: "ericgrebe.de",
-    description:
-      "Mein erstes eigenes Projekt mit React und Vite. Angelehnt an das Design der Entwicklerin Brittany Chiang.",
+    description: {
+      de: "Mein erstes eigenes Projekt mit React und Vite. Angelehnt an das Design der Entwicklerin Brittany Chiang.",
+      en: "My first own project with React and Vite. Based on the design of the developer Brittany Chiang.",
+      jp: "ReactとViteを使った初めての自分のプロジェクト。開発者Brittany Chiangのデザインに基づいています。",
+    },
     tags: ["React", "Tailwind"],
     imgID: "02",
     url: "https://github.com/Jiyuu5/PortfolioWebsite",
   },
   {
     title: "Lesewelt Oker",
-    description:
-      "Einfache Website im Onepage-Design, die ich zu 99% mit HTML und CSS während meiner ehrenamtlichen Tätigkeit für die Bücherei Lesewelt Oker realisiert habe.",
+    description: {
+      de: "Einfache Website im Onepage-Design, die ich zu 99% mit HTML und CSS während meiner ehrenamtlichen Tätigkeit für die Bücherei Lesewelt Oker realisiert habe.",
+      en: "Simple website in one-page design, which I realized 99% with HTML and CSS during my voluntary work for the library Lesewelt Oker.",
+      jp: "図書館Lesewelt Okerでのボランティア活動中に、HTMLとCSSで99％実現した1ページデザインのシンプルなウェブサイト。",
+    },
     tags: ["HTML", "CSS", "Javascript"],
     imgID: "01",
     url: "https://leseweltoker.de/",
