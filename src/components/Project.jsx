@@ -3,7 +3,7 @@ export default function Card({ title, description, tags, imgID, url }) {
   return (
     <li>
       <a href={url} target="_blank">
-        <div className="group mb-12 grid gap-4 grid-cols-3 sm:grid-cols-8 opacity-50 hover:opacity-100">
+        <div className="group mb-12 grid gap-4 grid-cols-3 sm:grid-cols-8 lg:opacity-50 hover:opacity-100">
           <div className="sm:col-span-2 ">
             <img
               className="object-cover border-2 rounded border-gray-900"
