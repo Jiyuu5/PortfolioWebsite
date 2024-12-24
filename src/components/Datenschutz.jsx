@@ -11,7 +11,10 @@ export default function Datenschutz({
         <h2 className="text-lg lg:text-2xl font-bold mb-3">
           Datenschutz&shy;erkl&auml;rung
         </h2>
-        <button onClick={() => handleCloseDatenschutz(false)}>
+        <button
+          className="hover:text-teal-500"
+          onClick={() => handleCloseDatenschutz(false)}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
