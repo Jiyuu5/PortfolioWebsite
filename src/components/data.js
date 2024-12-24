@@ -23,7 +23,7 @@ export const PROJECTS = [
       "Eine Würfel-App für Rollen- und Table-Top-Spieler. Entwickelt für Android Smartphones mit Android Studio. Befindet sich noch in der geschlossenen Alpha.",
     tags: ["Android", "Kotlin", "Java", "Jetpack Compose"],
     imgID: "04",
-    url: "https://play.google.com/store/apps/details?id=de.rockbiter.thediceguy",
+    url: "https://github.com/Jiyuu5/TheDiceGuyJC",
   },
   {
     title: "Space Defence",
@@ -39,7 +39,7 @@ export const PROJECTS = [
       "Mein erstes eigenes Projekt mit React und Vite. Angelehnt an das Design der Entwicklerin Brittany Chiang.",
     tags: ["React", "Tailwind"],
     imgID: "02",
-    url: "https://ericgrebe.de/",
+    url: "https://github.com/Jiyuu5/PortfolioWebsite",
   },
   {
     title: "Lesewelt Oker",
