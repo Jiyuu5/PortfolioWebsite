@@ -7,7 +7,7 @@ export default function Card({ title, description, tags, imgID, url }) {
           <div className="sm:col-span-2 ">
             <img
               className="object-cover border-2 rounded border-gray-900"
-              src={`/test/projekt${imgID}.png`}
+              src={`/img/projekt${imgID}.png`}
             ></img>
           </div>
           <div className="col-span-2 sm:col-span-6">
