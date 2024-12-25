@@ -28,12 +28,12 @@ export default function App() {
       <main className="lg:flex lg:flex-row lg:gap-4">
         <section className="lg:w-1/2 px-3">
           <div className="lg:sticky lg:top-0 w-full">
-            <ul className="lg:flex lg:flex-col lg:justify-between lg:h-dvh">
+            <div className="lg:flex lg:flex-col lg:justify-between lg:h-dvh">
               <Description language={currentLanguage} />
               <div>
                 <SocialLinks />
               </div>
-            </ul>
+            </div>
           </div>
         </section>
         <section className="lg:w-1/2 px-3">

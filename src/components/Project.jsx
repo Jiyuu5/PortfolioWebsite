@@ -8,6 +8,7 @@ export default function Card({ title, description, tags, imgID, url }) {
             <img
               className="object-cover border-2 rounded border-gray-900"
               src={`/img/projekt${imgID}.png`}
+              alt={title}
             ></img>
           </div>
           <div className="col-span-2 sm:col-span-6">
