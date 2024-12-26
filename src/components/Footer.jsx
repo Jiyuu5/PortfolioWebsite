@@ -25,13 +25,11 @@ export default function Footer({
   return (
     <footer>
       <ul className="flex flex-row justify-center gap-8 mb-4 mt-8">
-        <li className="group flex flex-row gap-2 items-end">
-          <button
-            onClick={handleOnClickImpressum}
-            className="hover:text-teal-500"
-          >
-            Impressum
-          </button>
+        <li
+          onClick={handleOnClickImpressum}
+          className=" group flex flex-row gap-2 items-end  hover:text-teal-500"
+        >
+          <button>Impressum</button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -47,13 +45,11 @@ export default function Footer({
             />
           </svg>
         </li>
-        <li className="group flex flex-row gap-2 items-end">
-          <button
-            onClick={handleOnClickDatenschutz}
-            className="hover:text-teal-500"
-          >
-            Datenschutz
-          </button>
+        <li
+          onClick={handleOnClickDatenschutz}
+          className="group flex flex-row gap-2 items-end hover:text-teal-500"
+        >
+          <button>Datenschutz</button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
