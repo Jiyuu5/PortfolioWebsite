@@ -4,13 +4,14 @@ export default function Card({ title, description, tags, imgID, url }) {
     <li>
       <a href={url} target="_blank">
         <div className="group mb-12 grid gap-4 grid-cols-3 sm:grid-cols-8 lg:opacity-50 hover:opacity-100">
-          <div className="sm:col-span-2 ">
+          <picture className="sm:col-span-2 ">
+            <source srcSet={`/img/projekt${imgID}.webp`} type="image/webp" />
             <img
               className="object-cover border-2 rounded border-gray-900"
               src={`/img/projekt${imgID}.png`}
               alt={title}
             ></img>
-          </div>
+          </picture>
           <div className="col-span-2 sm:col-span-6">
             <div className="flex flex-row gap-2 items-end">
               <h2>
