@@ -7,12 +7,12 @@ export default function Footer({
 }) {
   function handleOnClickImpressum() {
     onToggleDatenschutz(false);
-    onToggleImpressum(true);
+    onToggleImpressum(!isImpressumOpen);
   }
 
   function handleOnClickDatenschutz() {
     onToggleImpressum(false);
-    onToggleDatenschutz(true);
+    onToggleDatenschutz(!isDatenschutzOpen);
   }
 
   const styleImpressumSvg = isImpressumOpen
@@ -27,7 +27,7 @@ export default function Footer({
       <ul className="flex flex-row justify-center gap-8 mb-4 mt-8">
         <li
           onClick={handleOnClickImpressum}
-          className=" group flex flex-row gap-2 items-end  hover:text-teal-500"
+          className="group flex flex-row gap-2 items-end  hover:text-teal-500 hover:cursor-pointer"
         >
           <button>Impressum</button>
           <svg
@@ -47,7 +47,7 @@ export default function Footer({
         </li>
         <li
           onClick={handleOnClickDatenschutz}
-          className="group flex flex-row gap-2 items-end hover:text-teal-500"
+          className="group flex flex-row gap-2 items-end hover:text-teal-500 hover:cursor-pointer"
         >
           <button>Datenschutz</button>
           <svg
